@@ -1,0 +1,23 @@
+import random
+x = random.randint(0,100)
+y =input("Guess Your Number: ")
+
+if x > y:
+    print("Guess Higher")
+	
+if x < y:
+
+    print("Guess Lower")
+        
+while x != y:
+    y =input("Guess Your Number: ")
+    
+    if x > y:
+        print("Guess Higher")
+	
+    if x < y:
+        print("Guess Lower")
+
+
+if x == y:
+    print("Congratulations! You Won!")
